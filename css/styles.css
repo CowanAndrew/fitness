@@ -5,7 +5,7 @@
   */
 
  /* CSS Reset */
-body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside {
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
 	 margin: 0;
 	 padding: 0;
 	 border: 0;
@@ -16,7 +16,7 @@ body {
 	background-color: #000;
 }
 
-img {
+img, video {
 	max-width: 100%;
 	display: block;
 }
@@ -86,6 +86,10 @@ main {
 	 padding: 2%;
 	 font-size: 1.15em;
 	 font-family: 'Roboto Slab', serif;
+}
+
+video {
+	margin: 0 auto 4%;
 }
 
 .mobile h3 {
