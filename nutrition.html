@@ -14,15 +14,32 @@
 </head>
 <body>
 
-    <div id="container">	
+    <div id="container">
+        
+        <!--Mobile Nav-->
+		<nav class="mobile-nav">
+
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About us</a>
+				<a href="classes.html">Classes</a>
+				<a href="nutrition.html">Nutrition</a>
+				<a href="contact.html">Contact</a>
+			</div>
+
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+
+		</nav>
 	
 		<!-- Use the header area for the website name or logo -->
-		<header>
+		<header id="ffc-logo">
 			<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club Logo"></a>
 		</header>
 		
 		<!-- Use the nav area to add hyperlinks to other pages within the website -->
-		<nav>
+		<nav class="tablet-desktop">
 			<ul>
 				<li><a href="index.html">Home</a></li> 
 				<li><a href="about.html">About Us</a></li> 
@@ -96,7 +113,8 @@
 		</footer>
 	
 	</div>
-	
+
+    <script src="scripts/scripts.js"></script>	
 </body>
 
 </html>
