@@ -26,6 +26,23 @@ img, video {
 	box-sizing: border-box;
 }
 
+/* Style rules for skip navigation link */
+.skip {
+	position: absolute;
+	left: -999px;
+}
+
+.skip:focus {
+	color: #000;
+	background-color: #fff;
+	text-decoration: none;
+	padding: 0.5%;
+	top: auto;
+	left: auto;
+	right: 1px;
+	z-index: 1;
+}
+
 /* Style rules for mobile viewport */
 
 
@@ -220,17 +237,30 @@ form #Submit {
 
 
 /* Style rules for footer content */
-footer p {
+footer .copyright {
 	 font-size: 0.75em;
 	 text-align: center;
 	 color: #fff;
-	 padding: 0 1em;
+	 padding: 2% 4%;
+	 float: left;
+	 width: 75%;
 	
 }
 
 footer p a {
 	 color: #fff;
 	 text-decoration: none;
+}
+
+.social {
+	float: right;
+	width: 20%;
+	padding: 2%;
+}
+
+.social img {
+	display: inline-block;
+	padding: 5%;
 }
 
 /* Media Query for Tablet Viewport */
